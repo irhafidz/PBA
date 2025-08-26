@@ -97,12 +97,15 @@ Materi mencakup definisi dan deskripsi dari sumber akademik (buku dan makalah AC
      - **NLP Tasks**: Analisis sentimen, penambangan teks.
      - **Contoh**: Mengidentifikasi keluhan pasien tentang waktu tunggu rumah sakit.
        
-**PBA Gasal 2025/ project kelompok kalian**
+**PBA Gasal 2025/ project kelompok kalian!** 
+Contoh project di:
+- [Link Project PBA Gasal 2024](https://docs.google.com/spreadsheets/d/1CB4Pb1kA54bmvoUqc9I2GjEKJLkefq6FamTGJzilFyY/edit?gid=0#gid=0)
+- [Link Project PBA Genap 2025](https://docs.google.com/spreadsheets/d/1CB4Pb1kA54bmvoUqc9I2GjEKJLkefq6FamTGJzilFyY/edit?gid=0#gid=0)
   **Analisis Sentimen BPJS Kesehatan Indonesia**:
-     - **Deskripsi**: NLP diterapkan pada media sosial (misalnya, Twitter) untuk mengukur sentimen publik terhadap layanan BPJS Kesehatan.
-     - **Dampak**: Memberikan masukan untuk perbaikan kebijakan asuransi kesehatan nasional.
-     - **NLP Tasks**: Analisis sentimen, pemantauan media sosial.
-     - **Contoh**: Mengklasifikasi tweet seperti “BPJS lambat banget!” sebagai negatif.
+  - **Deskripsi**: NLP diterapkan pada media sosial (misalnya, Twitter) untuk mengukur sentimen publik terhadap layanan BPJS Kesehatan.
+  - **Dampak**: Memberikan masukan untuk perbaikan kebijakan asuransi kesehatan nasional.
+  - **NLP Tasks**: Analisis sentimen, pemantauan media sosial.
+  - **Contoh**: Mengklasifikasi tweet seperti “BPJS lambat banget!” sebagai negatif.
 
 
 ### Tokenisasi di Google Colab
@@ -117,8 +120,6 @@ Materi mencakup definisi dan deskripsi dari sumber akademik (buku dan makalah AC
   - Buat notebook baru, salin-tempel kode yang diberikan.
   - Instal pustaka yang diperlukan (misalnya, `datasets`, `nltk`, `PySastrawi`).
   - Analisis output tokenisasi dan diskusikan temuan.
-
-
 
 ## Studi Kasus Google Colab: Tokenisasi Teks Indonesia dengan Korpus IndoNLU
 
