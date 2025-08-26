@@ -1,9 +1,7 @@
-# Pemrograman Bahasa Alami (NLP) Syllabus and Code Examples
+# Pemrograman Bahasa Alami/ Gasal 2025
 
-This is an 8-week syllabus for the *Pemrograman Bahasa Alami* (Natural Language Processing, NLP) course at Institut Teknologi Sepuluh Nopember (ITS) Surabaya, designed for undergraduate students. The course covers theoretical and technical foundations of processing unstructured text data in natural language, with a focus on Bahasa Indonesia. The syllabus aligns with the *Capaian Pembelajaran Mata Kuliah (CPMK)* and *Bahan Kajian*, addressing conceptual understanding, encoding schemes, language modeling, preprocessing, data analysis, dataset creation, and model evaluation. Each week includes a Python code example using a unique, publicly available dataset and data collection method, along with notes and lessons learned. Additional dataset examples are provided for flexibility in assignments and projects.
-
-## Course Objectives and CPMK Alignment
-The course fulfills the following *Capaian Pembelajaran Mata Kuliah (CPMK)*, mapped to *Capaian Pembelajaran Lulusan (CPL)* #01–#08:
+## Capaian Pembelajaran Mata Kuliah/ CPMK (Course Objectives)
+** x *Capaian Pembelajaran Lulusan (CPL)* #01–#08:
 
 - **CMPK01a**: Memahami dasar-dasar konseptual dari pengolahan bahasa alami (C2) – *Understand conceptual foundations of NLP* (CPL #01, #02).
 - **CMPK01b**: Merancang skema encoding bahasa alami sederhana berdasarkan perhitungan (C2, P2) – *Design simple natural language encoding schemes* (CPL #01, #02, #03).
