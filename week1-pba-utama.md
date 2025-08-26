@@ -1,6 +1,9 @@
 # WEEK 1: Pengantar Pemrograman Bahasa Alami – Dasar-Dasar Konseptual
+Irmasari Hafidz
+irma@its.ac.id
 
 **CMPK01a** (Memahami dasar-dasar konseptual dari pengolahan bahasa alami, C2) dan memperkenalkan konsep, metodologi, serta alat-alat utama NLP, dengan fokus pada teks Bahasa Indonesia. 
+
 Materi mencakup definisi dan deskripsi dari sumber akademik (buku dan makalah ACL), studi kasus Google Colab menggunakan korpus Indonesia dari Hugging Face (`indonlu/smsa`), dan lima contoh pentingnya NLP dalam proyek pemerintahan global. Studi kasus diperluas dengan contoh dan analisis tambahan untuk teks Indonesia, menyoroti tantangan tokenisasi seperti slang dan afiksasi. Konten dirancang untuk mahasiswa sarjana dengan pengetahuan dasar Python dan diformat untuk integrasi ke GitHub.
 
 ### Tujuan Pembelajaran 
@@ -72,7 +75,7 @@ Materi mencakup definisi dan deskripsi dari sumber akademik (buku dan makalah AC
 - **Sumber**: Bird et al., NLTK Book; Dokumentasi Hugging Face.
 
 ### Mengapa NLP Penting? Proyek Pemerintahan 
-- **Examples**: Lima contoh dampak NLP dalam inisiatif pemerintahan:
+- **Examples**: Contoh NLP dalam inisiatif pemerintahan
   1. **Chatbot Smart Nation Singapura (GovTech)**:
      - **Deskripsi**: Gov.sg menggunakan chatbot berbasis NLP untuk menjawab pertanyaan warga tentang layanan publik (misalnya, pajak, kesehatan).
      - **Dampak**: Meningkatkan aksesibilitas, mengurangi beban administratif.
