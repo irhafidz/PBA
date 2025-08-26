@@ -35,7 +35,7 @@ Materi mencakup definisi dan deskripsi dari sumber akademik (buku dan makalah AC
 ### Pipeline NLP 
 - **Step by step NLP Pipelines**:
   - **Tahapan**:
-    1. ** Data**: Mengumpulkan teks (misalnya, berita, media sosial).
+    1. **Data**: Mengumpulkan teks (misalnya, berita, media sosial).
     2. **Pre-processing**: Tokenisasi, penghapusan stopword, stemming.
     3. **Ekstraksi Fitur**: Mengubah teks menjadi bentuk numerik (misalnya, Bag-of-Words, TF-IDF).
     4. **Pemodelan**: Membangun algoritma (misalnya, Naive Bayes, jaringan saraf).
