@@ -1,8 +1,8 @@
 # Pemrograman Bahasa Alami/ Gasal 2025
-Irmasari Hafidz
+Irmasari Hafidz (Minggu 1-8)
 irma@its.ac.id
 
-website x Syllabus kelas di 
+website x Syllabus kelas di [its.id/25-PBA] (https://its.id/25-PBA/)
 ## Capaian Pembelajaran Mata Kuliah/ CPMK (Course Objectives)
 Capaian Pembelajaran Lulusan (CPL)
 
