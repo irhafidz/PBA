@@ -1,7 +1,7 @@
 # Pemrograman Bahasa Alami/ Gasal 2025
 
 ## Capaian Pembelajaran Mata Kuliah/ CPMK (Course Objectives)
-** x *Capaian Pembelajaran Lulusan (CPL)* #01–#08:
+*Capaian Pembelajaran Lulusan (CPL)* #01–#08:
 
 - **CMPK01a**: Memahami dasar-dasar konseptual dari pengolahan bahasa alami (C2) – *Understand conceptual foundations of NLP* (CPL #01, #02).
 - **CMPK01b**: Merancang skema encoding bahasa alami sederhana berdasarkan perhitungan (C2, P2) – *Design simple natural language encoding schemes* (CPL #01, #02, #03).
