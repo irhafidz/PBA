@@ -101,6 +101,7 @@ Materi mencakup definisi dan deskripsi dari sumber akademik (buku dan makalah AC
 Contoh project di:
 - [Link Project PBA Gasal 2024](https://docs.google.com/spreadsheets/d/1CB4Pb1kA54bmvoUqc9I2GjEKJLkefq6FamTGJzilFyY/edit?gid=0#gid=0)
 - [Link Project PBA Genap 2025](https://docs.google.com/spreadsheets/d/1CB4Pb1kA54bmvoUqc9I2GjEKJLkefq6FamTGJzilFyY/edit?gid=0#gid=0)
+
   **Analisis Sentimen BPJS Kesehatan Indonesia**:
   - **Deskripsi**: NLP diterapkan pada media sosial (misalnya, Twitter) untuk mengukur sentimen publik terhadap layanan BPJS Kesehatan.
   - **Dampak**: Memberikan masukan untuk perbaikan kebijakan asuransi kesehatan nasional.
