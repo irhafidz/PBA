@@ -105,7 +105,8 @@ Lima contoh penerapan pipeline data dalam proyek pemerintahan:
    - **Pipeline**: Twitter API → Pembersihan slang → Analisis sentimen.  
    - **Dampak**: Memberikan masukan untuk kebijakan kesehatan.  
    - **Contoh**: Tweet “BPJS lambat banget!” diklasifikasi negatif.  
-- **Referensi**: Informasi proyek pemerintahan dari sumber web.  [Mobile JKN di Google Apps](https://play.google.com/store/apps/details?id=app.bpjs.mobile&hl=id&pli=1))
+- **Referensi**: Informasi proyek pemerintahan dari sumber web.
+- Contoh analisa BPJS/ Mobile JKN di kelas PBA lama [Mobile JKN di Google Apps](https://play.google.com/store/apps/details?id=app.bpjs.mobile&hl=id&pli=1)
 
 ---
 
