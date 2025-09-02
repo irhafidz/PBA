@@ -1,6 +1,7 @@
 
 
-###Pengumpulan Data dan Pembuatan Dataset untuk NLP 
+### WEEK 2: Pengumpulan Data dan Pembuatan Dataset untuk NLP 
+
 **Metodologi, Pipeline, dan Aplikasi Praktis**  
   - Pengumpulan Data dan Dataset (CMPK01f)  
   - NLP pipeline data: alur dari ulasan aplikasi ke dataset terstruktur.  
