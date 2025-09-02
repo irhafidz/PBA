@@ -5,6 +5,14 @@
 **Metodologi, Pipeline, dan Aplikasi Praktis**  
   - Pengumpulan Data dan Dataset (CMPK01f)  
   - NLP pipeline data: alur dari ulasan aplikasi ke dataset terstruktur.  
+
+
+**Summary Week 2 PBA**
+1. Data scrapping
+2. Data ready (save df) di sebuah csv/ xls ready, untuk next step
+3. Data Preprocessing: Stopwords, Stemming, Tokenization (link di notion)
+4. Link Notion Week 2 Recap di [Notion Week 2 Recap] (https://www.notion.so/irmahafidz/WEEK-2-Recap-1b4ef57fa4e78059889dcd0572193f2b)
+5. Link Notion Class Activity di [Notion Class Activity:] (https://www.notion.so/irmahafidz/Class-Activity-1a7ef57fa4e780a58c49e56f8fe6bbef) 
 ---
 
 ### Tujuan Pembelajaran
