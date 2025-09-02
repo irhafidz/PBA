@@ -100,7 +100,7 @@ Lima contoh penerapan pipeline data dalam proyek pemerintahan:
    - **Dampak**: Meningkatkan pengalaman pengguna aplikasi transportasi.  
    - **Contoh**: Ulasan “Fantastic app!” diklasifikasi sebagai positif.  [Transport for London](https://play.google.com/store/apps/details?id=uk.gov.tfl.gotfl&hl=en_GB)
 2. **Indonesia’s BPJS Kesehatan Social Media Monitoring**:
-   Google COlab (IH) di [link berikut](https://colab.research.google.com/drive/1F67OUFULNBBTTe-DgMHo5e7a8J2sjZgy#scrollTo=lkr3a1TRC6h-) 
+   Google Colab (contoh IH kelas PBA 2024/2025 past class) ada di [link berikut](https://colab.research.google.com/drive/1F67OUFULNBBTTe-DgMHo5e7a8J2sjZgy#scrollTo=lkr3a1TRC6h-) 
    - **Deskripsi**: Mengumpulkan tweet untuk analisis sentimen layanan BPJS.  
    - **Pipeline**: Twitter API → Pembersihan slang → Analisis sentimen.  
    - **Dampak**: Memberikan masukan untuk kebijakan kesehatan.  
