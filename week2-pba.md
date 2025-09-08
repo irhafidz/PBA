@@ -14,7 +14,8 @@
 4. Link Notion Week 2 Recap di [Notion Week 2 Recap] (https://www.notion.so/irmahafidz/WEEK-2-Recap-1b4ef57fa4e78059889dcd0572193f2b)
 5. Link Notion Class Activity di [Notion Class Activity:] (https://www.notion.so/irmahafidz/Class-Activity-1a7ef57fa4e780a58c49e56f8fe6bbef)
 
-'''python code
+```python
+
 !pip install google_play_scraper
 !pip install textblob
 !pip install seaborn
