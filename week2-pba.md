@@ -19,7 +19,7 @@
 !pip install google_play_scraper
 !pip install textblob
 !pip install seaborn
-
+```
 
 ### Tujuan Pembelajaran
 - Memahami proses pengumpulan data untuk NLP (CMPK01f, C2).  
