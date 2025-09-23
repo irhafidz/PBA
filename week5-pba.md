@@ -164,22 +164,15 @@ dtype: float64
 
 
 **5. N-gram Analysis**
+
 Extract bigrams/trigrams like “ibu hamil”, “Rp 300 triliun”.
 Why n-grams matter in policy/news context.
 
 📝Apa itu N-grams?
+
 Unigram: single word → "makanan", "gratis".
 Bigram: 2 consecutive words → "ibu hamil", "makanan basi".
 Trigram: 3 consecutive words → "Rp 300 triliun", "program makanan gratis".
-
-📊Why it matters? In policy/news, single words lose meaning.
-"ibu" vs. "ibu hamil" → very different context.
-"Rp" vs. "Rp 300 triliun" → magnitude of funding is lost if split.
-N-grams capture context & semantics better.
-
-Useful in:
-Policy evaluation: track mentions of budget figures.
-Public health news: phrases like "stunting anak", "ibu menyusui".
 
 ```python
 import pandas as pd
@@ -216,6 +209,16 @@ ngram_freq
 |3|gratis mbg|31|
 |2|bergizi gratis mbg|31|
 |6|penerima manfaat|27|
+
+📊Why it matters? In policy/news, single words lose meaning.
+
+"ibu" vs. "ibu hamil" → very different context.
+"Rp" vs. "Rp 300 triliun" → magnitude of funding is lost if split.
+N-grams capture context & semantics better.
+
+Useful in:
+Policy evaluation: track mentions of budget figures.
+Public health news: phrases like "stunting anak", "ibu menyusui".
 
 🔍 Discussion 
 
