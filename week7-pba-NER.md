@@ -2,6 +2,9 @@
 Irmasari Hafidz
 irma@its.ac.id
 
+Example GColab (bu irma):
+Week 7 PBA/ IndoBERT: [https://colab.research.google.com/drive/1Z17oVBlWmWpbJfiCvI-ARqpv5bGwBWYA?usp=sharing]/ harus punya akun huggingface/ ambil token di akun HF maisng2
+
 ## 🔹Part 1: What is NER?   
 NER = Named Entity Recognition = finding names of people, organizations, places, dates, etc.
 
