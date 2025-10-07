@@ -227,3 +227,6 @@ Public health news: phrases like "stunting anak", "ibu menyusui".
 "makanan basi" → captures negative feedback/complaints.
 
 ➡️ N-grams help us understand narratives and focus points in media coverage, which would be lost with single-word analysis.
+
+Contoh Classification Task: 12K movie datasets
+Gcolab (bu irma): Movie Dataset 12K Classification Task using TFIDF DistilBERT [https://colab.research.google.com/drive/1yUaA01xoK5kFRtfu2Sb9h2MqqJAleQNt?usp=sharing]
