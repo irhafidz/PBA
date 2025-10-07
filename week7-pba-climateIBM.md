@@ -2,10 +2,14 @@
 
 Dataset: IBM Research Climate-Change NER/ Hugging Face
 Link: [https://huggingface.co/datasets/ibm-research/Climate-Change-NER/tree/main]
+
 Download:
-en.train.txt (≈ 367 kB) 
-en.val.txt (≈ 74.6 kB) 
-en.test.txt (≈ 69.1 kB) 
+- en.train.txt (≈ 367 kB)
+- en.val.txt (≈ 74.6 kB)
+- en.test.txt (≈ 69.1 kB)
+
+Ambil token di akun huggingface:
+- https://huggingface.co/settings/tokens
 
 
 ### Setup
