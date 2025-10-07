@@ -2,6 +2,7 @@
 
 Dataset: IBM Research Climate-Change NER/ Hugging Face
 Link: [https://huggingface.co/datasets/ibm-research/Climate-Change-NER/tree/main]
+Gcolab (bu irma): [https://colab.research.google.com/drive/1SlIO76jt1UQEf6BOCRzw8tfkV8rVQrAy?usp=sharing]
 
 Download:
 - en.train.txt (≈ 367 kB)
