@@ -6,9 +6,10 @@ irma@its.ac.id
 NER = Named Entity Recognition = finding names of people, organizations, places, dates, etc.
 
 Example:
-
 > “Barack Obama was born in Hawaii in 1961.”
-> **Entities →** Barack Obama (Person), Hawaii (Location), 1961 (Date)
+
+**Entities →** `Barack Obama (PERSON)`, `Hawaii (LOCATION)`, `1961 (DATE)`
+
 
 Real use cases:
 
