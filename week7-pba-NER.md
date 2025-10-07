@@ -29,6 +29,8 @@ Real use cases:
 
 Reference: https://www.johnsnowlabs.com/named-entity-recognition-ner-with-python-at-scale/
 
+List of NER tags: [https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/concepts/named-entity-categories#type-product]
+
 ## 🔹 Part 2: Hands-on — Pretrained NER with spaCy / Hugging Face 
 Objective: Run and explore NER models.
 
