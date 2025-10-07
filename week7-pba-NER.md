@@ -18,7 +18,10 @@ Real use cases:
 - Social media analysis
 - Chatbots
 
-![NER Visualization Architecture](https://github.com/irhafidz/PBA/blob/main/figure/img_2.png?raw=true)
+<img src="https://github.com/irhafidz/PBA/blob/main/figure/img_2.png?raw=true" 
+     alt="NER Visualization" 
+     width="650">
+
 Reference: https://www.johnsnowlabs.com/named-entity-recognition-ner-with-python-at-scale/
 
 ## 🔹 Part 2: Hands-on — Pretrained NER with spaCy / Hugging Face 
