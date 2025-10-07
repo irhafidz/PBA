@@ -35,7 +35,7 @@ df_train.head(3)[["id", "text", "entities"]]
 - Anotasi manual – Label diberikan oleh manusia, meningkatkan akurasi dan validitas ilmiah.
 - Beragam entitas ilmiah – Memberikan peluang eksplorasi kategori nontradisional seperti hazards dan mitigations.
 - Lisensi terbuka (ODC-By) – Dapat digunakan dan dimodifikasi untuk penelitian dan pendidikan.
-- 
+  
 # ⚠️ Keterbatasan Dataset
 
 - Jumlah data terbatas (534 abstrak) – Tidak cukup besar untuk melatih model baru dari nol.
