@@ -1,0 +1,14 @@
+What is NER?
+
+NER = Named Entity Recognition = finding names of people, organizations, places, dates, etc.
+
+Example:
+
+“Barack Obama was born in Hawaii in 1961.”
+Entities → Barack Obama (Person), Hawaii (Location), 1961 (Date)
+
+Real use cases:
+
+- News summarization
+- Resume screening
+- Social media analysis
