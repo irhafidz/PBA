@@ -15,8 +15,9 @@ Materi mencakup definisi dan deskripsi dari sumber akademik (buku dan makalah AC
 - **Kesesuaian CPMK**: CMPK01a (pemahaman konseptual NLP).
 
 ### MATERI 
-PPT Week 1 https://docs.google.com/presentation/d/19GiViVGuowWwFvBDzOFjMd7mSgr0jMx2C1D0uk4_eEg/edit?usp=sharing
-PPT Syllabus PBA 2026 https://docs.google.com/presentation/d/1_OhVXciKT9d64hSI20ELV8GN6Mw3hYehiFz1yUmxkNI/edit?usp=sharing
+- PPT Week 1 https://docs.google.com/presentation/d/19GiViVGuowWwFvBDzOFjMd7mSgr0jMx2C1D0uk4_eEg/edit?usp=sharing
+- PPT Syllabus PBA 2026 https://docs.google.com/presentation/d/1_OhVXciKT9d64hSI20ELV8GN6Mw3hYehiFz1yUmxkNI/edit?usp=sharing
+
 ### Apa itu NLP? 
 - **Definisi**:
   - NLP adalah bidang ilmu komputer dan kecerdasan buatan yang memungkinkan komputer untuk memproses, memahami, dan menghasilkan bahasa manusia, terutama data teks tak terstruktur.
