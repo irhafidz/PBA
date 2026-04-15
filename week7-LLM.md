@@ -63,7 +63,12 @@ Mengevaluasi model bahasa memerlukan metrik yang berbeda dari klasifikasi biasa.
 | **Self-Attention** | Arsitektur dasar LLM (Transformer). | [Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762) |
 
 Modern Benchmarks: MMLU
-**Massive Multitask Language Understanding (MMLU)** adalah "Ujian Nasional" bagi LLM.
+**Massive Multitask Language Understanding (MMLU)** MMLU menguji LLM pada 57 subjek berbeda, mulai dari tingkat dasar hingga profesional (kedokteran, hukum, teknik). MMLU menjadi standar evaluasi kemampuan umum (general intelligence) yang komprehensif dari berbagai LLM/ generative-AI.
+
+Benchmark Standar: MMLU menjadi acuan dunia untuk menentukan siapa "model paling pintar" saat ini. Jika sebuah model (seperti GPT-4 atau Llama 3) mendapatkan skor tinggi di MMLU, ia dianggap memiliki penalaran (reasoning) dan pengetahuan dunia yang luas.
+
+Mengukur "Common Sense": Ujian ini tidak hanya mengetes hafalan, tapi juga logika. Model harus memilih jawaban yang benar (Multiple Choice) berdasarkan konteks, sehingga kita bisa tahu apakah model tersebut benar-benar "paham" atau hanya asal tebak.
+
 * **Cakupan:** 57 subjek (STEM, Humaniora, Medis, dll).
 * **Fungsi:** Menguji penalaran (reasoning) dan pengetahuan dunia model.
 * **Indonesian Note:** Model dengan skor MMLU tinggi (seperti Llama 3 atau GPT-4) cenderung lebih baik dalam menangani tugas kompleks di Project A/UTS, meskipun perlu adaptasi bahasa.
