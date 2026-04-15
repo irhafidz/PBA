@@ -38,7 +38,7 @@ LLM modern (GPT-4, Llama 3, IndoBERT) menggunakan mekanisme **Self-Attention** y
 Hampir semua LLM modern (GPT, Llama, BERT) lahir dari satu riset kunci:
 > **Vaswani, et al. (2017).** *"Attention Is All You Need"*. Riset ini memperkenalkan mekanisme **Self-Attention**, yang memungkinkan model fokus pada bagian kata yang paling relevan dalam satu konteks kalimat.
 
-Self-Attention adalah mekanisme yang memungkinkan model memberikan "perhatian" lebih pada kata-kata yang relevan dalam satu konteks, terlepas dari jaraknya.
+Self-Attention adalah mekanisme yang memungkinkan model memberikan "perhatian" lebih pada kata-kata yang relevan dalam satu konteks, terlepas dari jaraknya. Namun, Self-Attention model tidak benar-benar "paham" logika manusia. Model hanya menghitung skor korelasi statistik antar vektor.
 
 ### Mekanisme Q, K, V:
 * **Query (Q):** "Apa yang sedang saya cari?" (Fokus saat ini)/ Kata yang sedang diproses.
@@ -60,7 +60,7 @@ Mengevaluasi model bahasa memerlukan metrik yang berbeda dari klasifikasi biasa.
 | **BLEU Score** | Evaluasi kemiripan teks mesin dengan referensi manusia (Translation). | [Papineni et al. (2002)](https://aclanthology.org/P02-1040.pdf) |
 | **ROUGE** | Mengukur *recall* pada ringkasan teks (Summarization). | [Lin (2004)](https://aclanthology.org/W04-1013.pdf) |
 | **MMLU** | Benchmark pemahaman multi-tugas (STEM/Humaniora). | [Hendrycks et al. (2021)](https://arxiv.org/abs/2009.03300) |
-| **Self-Attention** | Arsitektur dasar LLM (Transformer). | [Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762) |
+| **Self-Attention** | Arsitektur dasar LLM (Transformer). Bisa menangkap Long-range Dependencies (hubungan kata yang berjauhan). | [Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762) |
 
 Modern Benchmarks: MMLU
 **Massive Multitask Language Understanding (MMLU)** MMLU menguji LLM pada 57 subjek berbeda, mulai dari tingkat dasar hingga profesional (kedokteran, hukum, teknik). MMLU menjadi standar evaluasi kemampuan umum (general intelligence) yang komprehensif dari berbagai LLM/ generative-AI.
@@ -72,6 +72,21 @@ Mengukur "Common Sense": Ujian ini tidak hanya mengetes hafalan, tapi juga logik
 * **Cakupan:** 57 subjek (STEM, Humaniora, Medis, dll).
 * **Fungsi:** Menguji penalaran (reasoning) dan pengetahuan dunia model.
 * **Indonesian Note:** Model dengan skor MMLU tinggi (seperti Llama 3 atau GPT-4) cenderung lebih baik dalam menangani tugas kompleks di Project A/UTS, meskipun perlu adaptasi bahasa.
+
+Mengapa MMLU Penting?
+Dahulu, model NLP hanya diuji untuk satu tugas (misal: hanya klasifikasi sentimen). MMLU menguji model pada 57 subjek berbeda, mencakup:
+
+    STEM: Matematika, Fisika, Ilmu Komputer.
+    Humaniora: Sejarah, Hukum, Filsafat.
+    Social Sciences: Psikologi, Sosiologi.
+    Others: Kedokteran, Bisnis.
+
+
+What to see in MMLU?
+
+    - Zero-shot & Few-shot: Kita menguji apakah model bisa menjawab pertanyaan sulit tanpa diberi contoh sebelumnya (zero-shot) atau dengan sedikit contoh (few-shot).
+    - Interpretasi Skor: * Jika skor model ~25%, itu setara dengan tebakan acak (karena soalnya pilihan ganda A, B, C, D).
+    - Model kelas dunia (GPT-4, Claude 3, Llama 3) biasanya mencapai skor >80%
 
 | Metric | Context (ID) | Do | Don't |
 | :--- | :--- | :--- | :--- |
@@ -98,7 +113,7 @@ Kapan menggunakan metrik tertentu.
 
 | Metric | Nama Lengkap | Kegunaan Utama | Tip Praktis (Do's & Don'ts) |
 | :--- | :--- | :--- | :--- |
-| **PPL** | Perplexity | Mengukur kefasihan (fluency). | **Do:** Semakin rendah makin baik. **Don't:** Bandingkan PPL dari dataset yang berbeda genre. |
-| **BLEU** | Bilingual Evaluation Understudy | Mengukur presisi kata. | **Do:** Gunakan untuk tugas translasi. **Don't:** Gunakan untuk tugas kreatif (opini/cerita). |
+| **PPL** | Perplexity | Mengukur kefasihan (fluency). | **Do:** Semakin rendah makin baik. Gunakan untuk membandingkan dua arsitektur model pada dataset yang sama persis. **Don't:** Bandingkan PPL dari dataset yang berbeda genre/ artikel data medis vs data berita). Hasilnya tidak akan apple to apple.|
+| **BLEU** | Bilingual Evaluation Understudy | Mengukur presisi kata. | **Do:** Gunakan untuk tugas translasi. Gunakan Stopword Removal sebelum menghitung skor jika kita ingin fokus pada kata kunci (keyword) penting saja. **Don't:** Gunakan untuk tugas kreatif (opini/cerita). |
 | **ROUGE** | Recall-Oriented Understudy | Mengukur kelengkapan info. | **Do:** Sangat cocok untuk **Summarization** (Project A/ UTS). **Don't:** Abaikan stemming bahasa Indonesia. |
-| **MMLU** | Massive Multitask Language Understanding | Benchmark kecerdasan umum. | **Do:** Gunakan
+| **MMLU** | Massive Multitask Language Understanding | Benchmark kecerdasan umum. | **Do:** Gunakan MMLU sebagai acuan awal saat memilih pre-trained model untuk proyek (misal: pilih model dengan MMLU tinggi untuk tugas yang butuh penalaran rumit). **Don't:** MMLU mayoritas dalam Bahasa Inggris, sehingga model dengan MMLU tinggi tetap harus diuji kembali dengan data lokal Indonesia (karena adanya perbedaan istilah).
