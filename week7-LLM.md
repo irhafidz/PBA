@@ -4,6 +4,8 @@ Course Objectives (CPMK):
 **CMPK01c:** Menerapkan pemodelan bahasa sederhana (C3)
 **CMPK01g:** Membuat model pengolahan bahasa alami, mengevaluasi dan merekomendasikan perbaikannya (C2, C3, C4)
 
+Link to colab Google https://colab.research.google.com/drive/1AwFacosZkKBaSPpzzw0J-g5Z2TmJ9CSz?usp=sharing
+
 ## 1. Introduction to Language Modeling (LM)
 Secara sederhana, **Language Modeling** adalah tugas memprediksi kata berikutnya dalam suatu urutan kata. 
 > *A Language Model (LM) computes the probability of a sentence or a sequence of words.*
