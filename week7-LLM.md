@@ -38,13 +38,21 @@ LLM modern (GPT-4, Llama 3, IndoBERT) menggunakan mekanisme **Self-Attention** y
 Hampir semua LLM modern (GPT, Llama, BERT) lahir dari satu riset kunci:
 > **Vaswani, et al. (2017).** *"Attention Is All You Need"*. Riset ini memperkenalkan mekanisme **Self-Attention**, yang memungkinkan model fokus pada bagian kata yang paling relevan dalam satu konteks kalimat.
 
+Self-Attention adalah mekanisme yang memungkinkan model memberikan "perhatian" lebih pada kata-kata yang relevan dalam satu konteks, terlepas dari jaraknya.
+
+* **Query (Q):** 
+* **Key (K):** 
+* **Value (V):** 
+* **Context in ID:** 
 
 ### Mekanisme Q, K, V:
-* **Query (Q):** "Apa yang sedang saya cari?" (Fokus saat ini).
-* **Key (K):** "Informasi apa yang ditawarkan oleh kata lain?"
-* **Value (V):** "Informasi penting apa yang harus saya ambil?"
+* **Query (Q):** "Apa yang sedang saya cari?" (Fokus saat ini)/ Kata yang sedang diproses.
+* **Key (K):** "Informasi apa yang ditawarkan oleh kata lain?" / Kata-kata lain sebagai referensi.
+* **Value (V):** "Informasi penting apa yang harus saya ambil?" /Informasi yang diambil jika Q dan K cocok.
 
-> **Analogi:** Saat membaca review BPJS, mata kita secara otomatis menghubungkan kata *"lambat"* dengan kata *"pelayanan"*, bukan dengan kata *"gedung"*. Itulah kerja Self-Attention.
+> **Analogi:**
+- Pada kalimat *"Obat ini manjur tapi mahal"*, model menghubungkan "mahal" kembali ke "Obat" menggunakan skor perhatian yang tinggi.
+- Saat membaca review BPJS, mata kita secara otomatis menghubungkan kata *"lambat"* dengan kata *"pelayanan"*, bukan dengan kata *"gedung"*. Itulah kerja Self-Attention.
 
 ---
 
