@@ -52,7 +52,7 @@ Self-Attention adalah mekanisme yang memungkinkan model memberikan "perhatian" l
 ---
 
 ## 3. Evaluation Metrics & Essential Research
-Mengevaluasi model bahasa memerlukan metrik yang berbeda dari klasifikasi biasa. Berikut adalah tabel acuan untuk mahasiswa:
+Mengevaluasi model bahasa memerlukan metrik yang berbeda dari klasifikasi biasa.
 
 | Metric / Benchmark | Fungsi Utama | Paper Referensi (Link) |
 | :--- | :--- | :--- |
