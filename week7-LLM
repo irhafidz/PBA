@@ -1,10 +1,8 @@
-#Week 7: Language Modeling and Evaluation
+# Week 7: Language Modeling and Evaluation
 
-**Course Objectives (CPMK):**
-* **CMPK01c:** Menerapkan pemodelan bahasa sederhana (C3)
-* **CMPK01g:** Membuat model pengolahan bahasa alami, mengevaluasi dan merekomendasikan perbaikannya (C2, C3, C4)
-
----
+Course Objectives (CPMK):
+**CMPK01c:** Menerapkan pemodelan bahasa sederhana (C3)
+**CMPK01g:** Membuat model pengolahan bahasa alami, mengevaluasi dan merekomendasikan perbaikannya (C2, C3, C4)
 
 ## 1. Introduction to Language Modeling (LM)
 Secara sederhana, **Language Modeling** adalah tugas memprediksi kata berikutnya dalam suatu urutan kata. 
@@ -43,22 +41,6 @@ Mengevaluasi model bahasa memerlukan metrik yang berbeda dari klasifikasi biasa.
 | **Self-Attention** | Arsitektur dasar LLM (Transformer). | [Vaswani et al. (2017)](https://arxiv.org/abs/1706.03762) |
 
 ---
-
-## 4. Quick Quiz & Discussion
-**Pertanyaan:** *Jika sebuah model bahasa memberikan probabilitas tinggi pada kalimat "Pasien meminum obat secara rutin", namun probabilitas rendah pada "Obat meminum pasien secara rutin", apakah model tersebut sudah memiliki pemahaman semantik yang baik?*
-
-**Jawaban:**
-Secara teknis, **iya, dalam level dasar.** Fenomena ini menunjukkan model memahami **Selectional Restriction** (batasan pilihan kata). 
-* Model statistik (N-gram) mempelajari ini berdasarkan frekuensi kemunculan kata yang berdampingan. 
-* LLM modern (Transformer) memahaminya melalui **Contextual Embeddings**, di mana model tahu bahwa subjek "Obat" secara logis tidak memiliki peran agensif untuk melakukan verba "meminum".
-* **Namun:** Perlu diingat bahwa model mungkin hanya "meniru" pola statistik tanpa benar-benar memahami konsep biologis (sering disebut sebagai *stochastic parroting*).
-
----
-
-## 5. Case Study: Project A-30 (Public Health Perspective)
-Dalam proyek kalian (Analisis Review Mobile JKN/Public Health), evaluasi model sangat krusial pada aspek **Reliability**:
-
-* **F1-Score:** Gunakan jika outputnya adalah klasifikasi sentimen review.
 * **Human Evaluation:** Lakukan sampling (10-20%) untuk memvalidasi apakah interpretasi model terhadap keluhan pasien sudah sesuai dengan konteks layanan kesehatan di Indonesia.
 * **Hallucination Rate:** Sangat krusial di Public Health agar model tidak mengarang fakta medis atau kebijakan BPJS.
 
