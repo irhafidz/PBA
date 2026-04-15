@@ -80,8 +80,8 @@ Practical Tips: Do's & Don'ts
 * **DO:** Lakukan **Human Evaluation** (Sampling 10-20%) untuk cek halusinasi medis.
 * **DON'T:** Percaya 100% pada skor otomatis; bahasa Indonesia memiliki nuansa (sarkasme/slang) yang sering luput dari metrik standar.
 
-* **Human Evaluation:** Lakukan sampling (10-20%) untuk memvalidasi apakah interpretasi model terhadap keluhan pasien sudah sesuai dengan konteks layanan kesehatan di Indonesia.
-* **Hallucination Rate:** Sangat krusial di Public Health agar model tidak mengarang fakta medis atau kebijakan BPJS.
+**Human Evaluation:** Lakukan sampling (10-20%) untuk memvalidasi apakah interpretasi model terhadap keluhan pasien sudah sesuai dengan konteks layanan kesehatan di Indonesia.
+**Hallucination Rate:** Sangat krusial di Public Health agar model tidak mengarang fakta medis atau kebijakan BPJS.
 
 ---
 
@@ -95,5 +95,5 @@ Kapan menggunakan metrik tertentu.
 | :--- | :--- | :--- | :--- |
 | **PPL** | Perplexity | Mengukur kefasihan (fluency). | **Do:** Semakin rendah makin baik. **Don't:** Bandingkan PPL dari dataset yang berbeda genre. |
 | **BLEU** | Bilingual Evaluation Understudy | Mengukur presisi kata. | **Do:** Gunakan untuk tugas translasi. **Don't:** Gunakan untuk tugas kreatif (opini/cerita). |
-| **ROUGE** | Recall-Oriented Understudy | Mengukur kelengkapan info. | **Do:** Sangat cocok untuk **Summarization** (Project A-30). **Don't:** Abaikan stemming bahasa Indonesia. |
+| **ROUGE** | Recall-Oriented Understudy | Mengukur kelengkapan info. | **Do:** Sangat cocok untuk **Summarization** (Project A/ UTS). **Don't:** Abaikan stemming bahasa Indonesia. |
 | **MMLU** | Massive Multitask Language Understanding | Benchmark kecerdasan umum. | **Do:** Gunakan
