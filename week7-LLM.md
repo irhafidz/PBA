@@ -1,7 +1,10 @@
 # Week 7: Language Modeling and Evaluation
+irma@its.ac.id
 
 Course Objectives (CPMK):
+
 **CMPK01c:** Menerapkan pemodelan bahasa sederhana (C3)
+
 **CMPK01g:** Membuat model pengolahan bahasa alami, mengevaluasi dan merekomendasikan perbaikannya (C2, C3, C4)
 
 Link to colab Google https://colab.research.google.com/drive/1AwFacosZkKBaSPpzzw0J-g5Z2TmJ9CSz?usp=sharing
@@ -67,7 +70,7 @@ Modern Benchmarks: MMLU
 
 Benchmark Standar: MMLU menjadi acuan dunia untuk menentukan siapa "model paling pintar" saat ini. Jika sebuah model (seperti GPT-4 atau Llama 3) mendapatkan skor tinggi di MMLU, ia dianggap memiliki penalaran (reasoning) dan pengetahuan dunia yang luas.
 
-Mengukur "Common Sense": Ujian ini tidak hanya mengetes hafalan, tapi juga logika. Model harus memilih jawaban yang benar (Multiple Choice) berdasarkan konteks, sehingga kita bisa tahu apakah model tersebut benar-benar "paham" atau hanya asal tebak.
+Mengukur "Common Sense": MMLU tidak hanya mengetes hafalan, tapi juga logika. Model harus memilih jawaban yang benar (Multiple Choice) berdasarkan konteks, sehingga kita bisa tahu apakah model tersebut benar-benar "paham" atau hanya asal tebak.
 
 * **Cakupan:** 57 subjek (STEM, Humaniora, Medis, dll).
 * **Fungsi:** Menguji penalaran (reasoning) dan pengetahuan dunia model.
