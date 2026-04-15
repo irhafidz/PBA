@@ -18,14 +18,31 @@ Sebelum era Deep Learning, kita menggunakan **N-gram**, yaitu urutan $n$ kata ya
 * **Unigram:** Menghitung probabilitas kata secara independen.
 * **Bigram:** Memprediksi kata berdasarkan satu kata sebelumnya $P(w_n | w_{n-1})$.
 
+Secara matematis, sebuah Language Model (LM) adalah model yang mempelajari distribusi probabilitas dari urutan kata. Jika kita memiliki kalimat $S = (w_1, w_2, ..., w_n)$, model menghitung:
+
+$$P(S) = \prod_{i=1}^{n} P(w_i | w_1, \dots, w_{i-1})$$
+
+### Point Penting:
+* **Next Token Prediction:** LLM tidak "memahami" kebenaran; ia memprediksi kata apa yang paling mungkin muncul secara statistik berdasarkan data training.
+* **Context Window:** Seberapa banyak kata sebelumnya ($w_1, \dots, w_{i-1}$) yang bisa diingat oleh model untuk memprediksi kata berikutnya.
+
 ---
 
 ## 2. Transition to Large Language Models (LLM)
 Dalam beberapa tahun terakhir, NLP bergeser ke **Neural Language Models** yang berskala raksasa (LLM) berbasis arsitektur **Transformer**.
 
-### The Core Research: The Transformer
+### The Core Research: The Transformer / Arsitektur Utama: Self-Attention
+LLM modern (GPT-4, Llama 3, IndoBERT) menggunakan mekanisme **Self-Attention** yang diperkenalkan dalam paper *“Attention Is All You Need”* (Vaswani et al., 2017).
 Hampir semua LLM modern (GPT, Llama, BERT) lahir dari satu riset kunci:
 > **Vaswani, et al. (2017).** *"Attention Is All You Need"*. Riset ini memperkenalkan mekanisme **Self-Attention**, yang memungkinkan model fokus pada bagian kata yang paling relevan dalam satu konteks kalimat.
+
+
+### Mekanisme Q, K, V:
+* **Query (Q):** "Apa yang sedang saya cari?" (Fokus saat ini).
+* **Key (K):** "Informasi apa yang ditawarkan oleh kata lain?"
+* **Value (V):** "Informasi penting apa yang harus saya ambil?"
+
+> **Analogi:** Saat membaca review BPJS, mata kita secara otomatis menghubungkan kata *"lambat"* dengan kata *"pelayanan"*, bukan dengan kata *"gedung"*. Itulah kerja Self-Attention.
 
 ---
 
@@ -45,3 +62,16 @@ Mengevaluasi model bahasa memerlukan metrik yang berbeda dari klasifikasi biasa.
 * **Hallucination Rate:** Sangat krusial di Public Health agar model tidak mengarang fakta medis atau kebijakan BPJS.
 
 ---
+
+
+
+
+## more notes on Metrik Evaluasi: Cara Mengukur Performa 
+Kapan menggunakan metrik tertentu.
+
+| Metric | Nama Lengkap | Kegunaan Utama | Tip Praktis (Do's & Don'ts) |
+| :--- | :--- | :--- | :--- |
+| **PPL** | Perplexity | Mengukur kefasihan (fluency). | **Do:** Semakin rendah makin baik. **Don't:** Bandingkan PPL dari dataset yang berbeda genre. |
+| **BLEU** | Bilingual Evaluation Understudy | Mengukur presisi kata. | **Do:** Gunakan untuk tugas translasi. **Don't:** Gunakan untuk tugas kreatif (opini/cerita). |
+| **ROUGE** | Recall-Oriented Understudy | Mengukur kelengkapan info. | **Do:** Sangat cocok untuk **Summarization** (Project A-30). **Don't:** Abaikan stemming bahasa Indonesia. |
+| **MMLU** | Massive Multitask Language Understanding | Benchmark kecerdasan umum. | **Do:** Gunakan
