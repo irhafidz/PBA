@@ -99,7 +99,7 @@ What to see in MMLU?
 
 ---
 Practical Tips: Do's & Don'ts
-* **DO:** Gunakan **F1-Score** untuk klasifikasi sentimen review BPJS.
+* **DO:** Gunakan **F1-Score** untuk klasifikasi sentimen review (Apps review misal dari MobileJKN/BPJS atau aplikais lain).
 * **DO:** Lakukan **Human Evaluation** (Sampling 10-20%) untuk cek halusinasi medis.
 * **DON'T:** Percaya 100% pada skor otomatis; bahasa Indonesia memiliki nuansa (sarkasme/slang) yang sering luput dari metrik standar.
 
